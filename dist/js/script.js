@@ -56,5 +56,5 @@ cartOverlay.addEventListener('click', event => {
 
     if (target.matches('.cart__btn-close') || target.matches('.cart-overlay')) {
         cartModalClose();
-    }
+    }    
 });
