@@ -21,7 +21,7 @@ const getLocalStorage = () => JSON?.parse(localStorage.getItem('card-lomoda')) |
 const setLocalStorage = (data) => localStorage.setItem('card-lomoda', JSON.stringify(data));
 
 const renderCart = () => {
-    cartListGoods.textContent = '';
+    cartListGoods.textContent = ''
 
     const cardItems = getLocalStorage();
 
